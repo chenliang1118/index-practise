@@ -1,0 +1,19 @@
+#head {
+    height: 81px;
+}
+
+#head .head_logo {
+    width: 162px;
+    height: 44px;
+    margin-top: 19px;
+}
+
+#head .head_menu {
+    font-size: 14px;
+    line-height: 81px;
+}
+
+#head .head_menu li {
+    float: left;
+    margin-left: 58px;
+}

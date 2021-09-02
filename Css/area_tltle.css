@@ -1,0 +1,18 @@
+.area_title {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.area_title h2 {
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    color: #363636ff;
+    background: url(../images/title_bg.png) no-repeat center 6px;
+}
+
+.area_title p {
+    color: #9f9f9fff;
+    font-size: 14px;
+    line-height: 34px;
+}

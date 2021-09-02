@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博文尚美</title>
+    <link rel="stylesheet" href="./Css/common.css">
+    <link rel="stylesheet" href="./Css/head_menu.css">
+    <link rel="stylesheet" href="./Css/area_tltle.css">
+    <style>
+        #banner {
+            position: relative;
+        }
+        
+        #banner .banner_btn {
+            font-size: 0;
+            width: 100%;
+            position: absolute;
+            bottom: 19px;
+            text-align: center;
+            z-index: 20;
+        }
+        
+        #banner .banner_btn li {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border: 2px solid white;
+            border-radius: 50%;
+            box-sizing: border-box;
+            margin: 0 6px;
+            cursor: pointer;
+        }
+        
+        #banner .banner_btn li.active {
+            background-color: #fff;
+        }
+        
+        #banner .banner_list {
+            width: 100%;
+            height: 469px;
+            position: relative;
+        }
+        
+        #banner .banner_list li {
+            width: 100%;
+            height: 100%;
+            background: center 0 no-repeat;
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            z-index: 1;
+        }
+        
+        #banner .banner_list li.active {
+            opacity: 1;
+            z-index: 10;
+        }
+        
+        #banner .banner_list a {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+    <style>
+        #service {
+            overflow: hidden;
+            min-height: 407px;
+        }
+        
+        #service .service_list {}
+        
+        #service .service_list li {
+            float: left;
+            width: 250px;
+            margin: 0 10px;
+        }
+        
+        #service .service_list div {
+            width: 102px;
+            height: 102px;
+        }
+        
+        #service .service_list li:nth-of-type(1) div {
+            background-image: url(./images/e-bussiness1.png);
+        }
+        
+        #service .service_list li:nth-of-type(2) div {
+            background-image: url(./images/web1.png);
+        }
+        
+        #service .service_list li:nth-of-type(3) div {
+            background-image: url(./images/mail1.png);
+        }
+        
+        #service .service_list li:nth-of-type(4) div {
+            background-image: url(./images/graphic1.png);
+        }
+        
+        #service .service_list h3 {}
+        
+        #service .service_list p {}
+    </style>
+</head>
+
+<body>
+    <div class="container" id="head">
+        <div class="head_logo left_float">
+            <a href="#">
+                <img src="./images/logo.png" alt="博文尚美" title="博文尚美">
+            </a>
+        </div>
+        <ul class="head_menu right_float">
+            <li>
+                <a href="#">HOME</a>
+            </li>
+            <li>
+                <a href="#">ABOUT</a>
+            </li>
+            <li>
+                <a href="#">PROTFOLIO</a>
+            </li>
+            <li>
+                <a href="#">SERVICE</a>
+            </li>
+            <li>
+                <a href="#">NEWS</a>
+            </li>
+            <li>
+                <a href="#">CONTACT</a>
+            </li>
+        </ul>
+    </div>
+    <div id="banner" class="container_fluid">
+        <ul class="banner_list">
+            <li class="active" style="background-image: url(./images/banner.png);">
+                <a href="#"></a>
+            </li>
+            <li style="background-image: url(./images/banner.png);">
+                <a href="#"></a>
+            </li>
+            <li style="background-image: url(./images/banner.png);">
+                <a href="#"></a>
+            </li>
+            <li style="background-image: url(./images/banner.png);">
+                <a href="#"></a>
+            </li>
+        </ul>
+        <ol class="banner_btn">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </div>
+    <div class="container" id="service">
+        <div class="area_title">
+            <h2>服务范围</h2>
+            <p>OUR SERVICES</p>
+        </div>
+        <ul class="service_list">
+            <li>
+                <div></div>
+                <h3>1.WEB DESIGN</h3>
+                <p>
+                    企业品牌网站设计/手机网站制作
+                    <br> 动画网站创意设计
+                </p>
+
+            </li>
+            <li>
+                <div></div>
+                <h3>2.WEB DESIGN</h3>
+                <p>
+                    企业品牌网站设计/手机网站制作
+                    <br> 动画网站创意设计
+                </p>
+
+            </li>
+            <li>
+                <div></div>
+                <h3>3.WEB DESIGN</h3>
+                <p>
+                    企业品牌网站设计/手机网站制作
+                    <br> 动画网站创意设计
+                </p>
+
+            </li>
+            <li>
+                <div></div>
+                <h3>4.WEB DESIGN</h3>
+                <p>
+                    企业品牌网站设计/手机网站制作
+                    <br> 动画网站创意设计
+                </p>
+
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
