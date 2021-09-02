@@ -9,6 +9,7 @@
     font-size: 20px;
     color: #363636ff;
     background: url(../images/title_bg.png) no-repeat center 6px;
+    font-weight: normal;
 }
 
 .area_title p {

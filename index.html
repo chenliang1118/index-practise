@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./Css/common.css">
     <link rel="stylesheet" href="./Css/head_menu.css">
     <link rel="stylesheet" href="./Css/area_tltle.css">
+    <link rel="stylesheet" href="./Css/foot.css">
     <style>
         #banner {
             position: relative;
@@ -73,7 +74,7 @@
             min-height: 407px;
         }
         
-        #service .service_list {}
+        #service .service_list {text-align: center;margin-top: 34px}
         
         #service .service_list li {
             float: left;
@@ -84,6 +85,7 @@
         #service .service_list div {
             width: 102px;
             height: 102px;
+            margin: 0 auto;
         }
         
         #service .service_list li:nth-of-type(1) div {
@@ -102,9 +104,96 @@
             background-image: url(./images/graphic1.png);
         }
         
-        #service .service_list h3 {}
+        #service .service_list h3 {
+            font-size: 18px;color: #434343;
+            line-height: 36px;
+            margin-top: 25px;
+        }
         
-        #service .service_list p {}
+        #service .service_list p {
+            font-size: 14px;color: #6d6d6d;
+            line-height: 22px;}
+    </style>
+    <style>
+        #case{background:#f8f8f8;}
+        #case .container{min-height: 460px;overflow: hidden;}
+        #case .area_title{
+            margin-top: 55px;}
+        #case .area_title h2{
+            color: #66c5b4;}
+        #case .case-list{margin-top: 28px;}
+        #case .case-list li{
+            float: left;
+            width: 340px;margin: 0 10px;
+        }
+        #case .case-btn{
+            width: 176px;
+            height: 37px;
+           line-height: 37px;
+            margin:0 auto;
+            background-color: #66c5b4;
+            text-align: center;
+            border-radius: 25px;
+            font-size: 14px;
+        }
+        #case .case-btn a{
+            display: block;
+            width: 100%;
+            height: 100%;
+            color: white;
+            margin-top: 36px;
+        }
+    </style>
+    <style>
+        #news{min-height: 450px;overflow: hidden;}
+        #news .area_title{margin-top: 65px}
+        #news dl{margin-top: 48px;}
+        #news dt{
+            width: 234px;}
+        #news dd{
+            width: 846px;}
+        #news .news-list{
+            width: 100%;
+        }
+        #news .news-list li{
+            width: 50%;
+            float: left;
+            margin-bottom: 48px;
+        }
+        #news .news-date{
+            width: 71px;
+            height: 70px;
+            border-right: 1px solid #Dcdcdc;
+            text-align:center;
+        }
+        #news .news-date i{
+            color: #66c5b4;
+            font-size: 39px;
+            display: block;
+            font-weight: bold;
+        }
+        #news .news-date span{
+            color: #999999;
+            font-size: 20px;
+            line-height: 36px;
+
+        }
+        #news .news-text{
+            width: 310px;
+            margin-left: 20px;
+
+        }
+        #news .news-text h3{
+            font-size: 14px;}
+        #news .news-text h3 a {
+            color: #3f3f3f;
+        }
+        #news .news-text p{
+            color: #a4a4a4;
+            font-size: 12px;
+            line-height: 21px;
+            margin-top: 17px;
+        }
     </style>
 </head>
 
@@ -201,6 +290,98 @@
 
             </li>
         </ul>
+    </div>
+    <div class="container_fluid" id="case">
+     <div class="container">
+            <div class="area_title">
+                <h2>{ 客户案例 }</h2>
+                <p>With the best professional technology, to design the best innovative web site</p>
+            </div>
+            <ul class="case-list clear_float">
+                <li>
+                    <a href="#"><img src="./images/20141121095216750.png" alt=""></a>
+                </li>
+                <li>
+                <a href="#"><img src="./images/20141121095528549.png" alt=""></a>
+            </li>
+                <li>
+                <a href="#"><img src="./images/20141121105856226.png" alt=""></a>
+            </li>
+            </ul>
+            <div class="case-btn">
+                <a href="JavaScript">view more</a>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="news">
+        <div class="area_title">
+            <h2>最新资讯</h2>
+            <p>THE LATEST NEWS</p>
+        </div>
+        <dl>
+            <dt class="left_float">
+                <img src="./images/xs1.png" alt="">
+            </dt>
+            <dd class="left_float">
+                <ul class="news-list">
+                    <li>
+                        <div class="news-date left_float">
+                            <i>09</i>
+                            <span>Jan</span>
+                        </div>
+                        <div class="news-text left_float">
+                            <h3><a href="#">网站排名进入前三的技巧</a></h3>
+                            <p>法国世界发了句哈克空间和发展开发了就或者v拉拉和和vv留在这里结案率
+                                黄河泛滥在房子里附件在法国卡法法拉利...</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-date left_float">
+                            <i>09</i>
+                            <span>Jan</span>
+                        </div>
+                        <div class="news-text left_float">
+                            <h3><a href="#">网站排名进入前三的技巧</a></h3>
+                            <p>法国世界发了句哈克空间和发展开发了就或者v拉拉和和vv留在这里结案率
+                                黄河泛滥在房子里附件在法国卡法法拉利...</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-date left_float">
+                            <i>09</i>
+                            <span>Jan</span>
+                        </div>
+                        <div class="news-text left_float">
+                            <h3><a href="#">网站排名进入前三的技巧</a></h3>
+                            <p>法国世界发了句哈克空间和发展开发了就或者v拉拉和和vv留在这里结案率
+                                黄河泛滥在房子里附件在法国卡法法拉利...</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-date left_float">
+                            <i>09</i>
+                            <span>Jan</span>
+                        </div>
+                        <div class="news-text left_float">
+                            <h3><a href="#">网站排名进入前三的技巧</a></h3>
+                            <p>法国世界发了句哈克空间和发展开发了就或者v拉拉和和vv留在这里结案率
+                                黄河泛滥在房子里附件在法国卡法法拉利...</p>
+                        </div>
+                    </li>
+                </ul>
+            </dd>
+        </dl>
+    </div>
+    <div class="container_fluid" id="foot">
+        <div class="container">
+            <p class="left_float">Copying 2006-2014 Bowenshangmei Culture All Rights Reserved</p>
+            <div class="right_float">
+                <a href="#">Home</a>|
+                <a href="#">About</a>|
+                <a href="#">Portfolio</a>|
+                <a href="#">Contact</a>
+            </div>
+        </div>
     </div>
 </body>
 
